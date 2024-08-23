@@ -493,7 +493,7 @@ header {
 
 /* -------------------------- Solutions section -------------------------- */
 #solutions-section {
-  background-image: url(assets/pictures/solution-background_mobile-2x\\(1\).avif);
+  background-image: url(assets/pictures/solution-background_mobile-2x.avif);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -663,7 +663,7 @@ header {
 }
 .products-content-first-section {
   margin-right: -4px;
-  height: 35.5vw;
+  height: 35.45vw;
   min-height: 196px;
   margin-bottom: 0.75rem;
   display: flex;
@@ -672,9 +672,7 @@ header {
 }
 .products-content-phi-box {
   height: 100%;
-  background-image: url(assets/pictures/ACOM-HP-Desktop-ENUS-Product-PromoCard-Phi3-Overlay@2x\\(
-      1\
-    ).avif);
+  background-image: url(assets/pictures/ACOM-HP-Desktop-ENUS-Product-PromoCard-Phi3-Overlay@2x.avif);
   border-radius: 1rem;
   overflow: hidden;
   background-position: center;
@@ -1250,6 +1248,7 @@ div.customer-arrow {
   display: flex;
   flex-direction: row;
   height: 24px;
+  padding-bottom: 2px;
 }
 .footer-end-section-merge {
   margin-right: 10px;
@@ -1283,10 +1282,10 @@ div.customer-arrow {
   padding-right: 0.5rem;
   width: 43px;
   box-sizing: border-box;
-  padding-top: 4px;
+  padding-top: 2px;
 }
 .footer-end-section-tick-icon svg {
-  width: 33.37px;
+  width: 35px;
 }
 .footer-end-section-tick-icon svg path {
   width: 33.37px;
@@ -2404,15 +2403,15 @@ div.customer-arrow {
     width: 100%;
   }
   .footer-end-last-section-items li {
-    padding: 0px 26.5px 4px 0px;
+    padding: 0px 24px 4px 3px;
   }
   .footer-end-section-inner-container {
     display: flex;
     justify-content: space-between;
   }
   .footer-end-last-section-items .xyz {
-    padding-left: 2px;
-    padding-right: 24.6px;
+    /* padding-left: 2px; */
+    padding-right: 24px;
   }
 }
 
